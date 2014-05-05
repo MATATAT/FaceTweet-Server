@@ -1,8 +1,22 @@
-﻿body {
+﻿/* Custom Classes */
+.center-text
+{
+    text-align: center;
+}
+
+.bold-text
+{
+    font-weight: bold;
+}
+
+/* Default Layout styles */
+body {
     font-size: .85em;
     font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
     color: #232323;
     background-color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 header, footer, nav, section {

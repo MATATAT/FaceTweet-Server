@@ -1,4 +1,8 @@
-﻿<!DOCTYPE html>
+﻿@{
+    ViewBag.Title = "FaceTweet";
+}
+
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -8,8 +12,13 @@
     @Scripts.Render("~/bundles/modernizr")
 </head>
 <body>
-    @RenderBody()
+    <div class="container">
+        <div class="center-text" >
+            <h1 class="bold-text">Welcome to FaceTweet</h1>
+        </div>
 
+        @RenderBody()
+    </div>
     @Scripts.Render("~/bundles/jquery", "~/bundles/bootstrap")
     @RenderSection("scripts", required: false)
 </body>
